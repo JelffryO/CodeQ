@@ -17,10 +17,10 @@ WHEN the game is over
 THEN I can save my initials and score
 
 # Website URL
- 
+https://jelffryo.github.io/CodeQ/
 
 # Screenshot 
 https://imgur.com/a/OzF0Uem
 
 # GitHub Repository URL
- 
+https://github.com/JelffryO/CodeQ

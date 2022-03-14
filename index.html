@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<!--header-->
+<header>
+    <div id="header">
+        <p id ="viewscore">View high scores</p>
+        <a>Time:<span id="timer">0</span></a>
+    </div>
+</header>
+
+<body>
+    <!--Main-->
+    <div class="main" id ="main">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within time limit.
+        </br>Keep in mind that incorret answers will penalize your score/time</br>by ten seconds!
+        </p>
+        <button class ="btn" id ="start-quiz">Start Quiz</button>
+    </div>
+
+    <!--Questions-->
+    <div class="questions" id = "questions">
+        <p class="question" id ="question"></p>
+        <button class="btnq" id = "A">Agroup</button>
+        <button class="btnq" id = "B">Bgroup</button>
+        <button class="btnq" id = "C">Cgroup</button>
+        <button class="btnq" id = "D">Dgroup</button>
+    </div>
+
+    <!--Results-->
+    <div class ="result" id = "result">
+        <p class ="border"><span id="verify"></span></p>
+    </div>
+
+    <!--Submit form-->
+    <form id ="submitform">
+        <div class="form-group">
+            <h2 id = "done">All done!</h2>
+        </div>
+        <div class ="form-group">
+            <p class ="fscore">Your final score is : <span id="fscore"></span></p>
+        </div>
+        <div class="formgroup">
+            <label for="initial">Enter initials:</label>
+            <input type="text" id = "initial" name="name" required/>
+            <button class ="btn" id ="subform">Submit</button>
+        </div>
+    </form>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

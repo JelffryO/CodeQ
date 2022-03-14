@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+#header{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction:row;
+    padding: 15px 20px;
+}
+#header p {
+    color: rgb(250, 140, 250);
+    margin: 0px 0px 10px;
+    font-size: 25px;     
+}
+#header a {
+    color: black;
+    margin: 0px 0px 10px;
+    font-size: 25px;
+}
+
+
+/*main*/
+.main{
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 25px;
+}  
+.main p{
+    font-size: 18px;
+    color: darkblue;
+    font-size: 20px;   
+}
+ 
+
+/*button*/
+.btn{
+outline: none;
+border: none;
+display: inline-block;
+padding: 10px 10px;
+background: darkblue;
+position: relative;
+margin-top: 10px;
+font-size: 25px;
+border-radius: 7px;
+color: white;
+}
+
+
+/*questions*/
+.questions{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 340px;
+}
+.questions p{
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold; 
+    width: 70%;
+    color: black;
+}
+.btnq{
+    outline: none;
+    border: none;
+    width: 25%;
+    background: darkblue;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 7px;
+    text-align: left;
+    color: white;
+}
+             
+
+/*result*/
+.border{
+    padding: 10px;
+    border-top:2px solid lightgrey;
+    width: 70%;
+}
+.result{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 340px;
+}
+#result p{
+    font-size: 45px;
+    color: lightgrey; 
+    width: 50%;
+}
+.btnq{
+    outline: none;
+    border: none;
+    width: 25%;
+    padding: 10px 15px;
+    background: darkblue;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 7px;
+    text-align: left;
+}
+
+/*submit form*/
+#submitform{
+        margin-left: 340px;
+        font-size: 40px;
+          
+}
+#initial{
+    border: 1.5px solid darkblue;
+    padding: 10px 15px;
+}
+.load-scores{
+    padding: 100px 55px;
+    margin-left: 340px;
+}
+.high{
+    font-size: 50px;
+    padding-left: 5px;
+}
+
+
+/*view score*/
+.list-item{
+    font-size: 30px;
+    width: 45%;
+}
+#listitems{
+    background-color: lightgrey;
+    margin-bottom: 5px;
+}
+.hscores-gobtn{
+    width : 15%;
+    margin :5px 20px;
+}
+.hscores-clbtn{
+    width : 25%;
+    margin :5px 20px;
+}
+
+ 
